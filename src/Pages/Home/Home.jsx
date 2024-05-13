@@ -1,0 +1,126 @@
+import React from 'react'
+import './Home.css'
+import visionMision from '../../assets/Data/mision'
+import values from '../../assets/icons/values.png'
+import check from '../../assets/icons/check.png'
+import whyUs from '../../assets/Data/why'
+
+import sst from '../../assets/icons/SST.png'
+import pl from '../../assets/icons/PL.png'
+import fwc from '../../assets/icons/FWC.png'
+import est from '../../assets/icons/ESTATE.png'
+
+function Home() {
+  return (
+    <main>
+        <div className="container">
+          <div className="welcome-home">
+            <h2>You're</h2>
+            <p>WELCOME TO</p>
+            <h1>CORPORATE BOSS SOLUTIONS</h1>
+            <p>Corporate Boss Solutions is a multifaceted organization dedicated to providing high-quality services across 
+              four distinct sectors, each tailored to meet the diverse needs of our valued clients. </p>
+          </div>
+        </div>
+
+        <div className="mis-vi">
+
+          {visionMision.map((vision,index)=>{
+                  return <div key={index} className='format'>
+                    <div className="card">
+                      <img src={vision.img} alt="" />
+                      <h2>{vision.name}</h2>
+                    </div>
+                      <p>{vision.text}</p>
+                  </div>
+          })}
+            <div className="values-card">
+              <div className="img-title">
+                <img src={values} alt="" />
+                <h2>Core Values</h2>
+              </div>
+              <ul>
+                <li><img src={check} alt="" /> Excellence</li>
+                <li><img src={check} alt="" /> Integrity</li>
+                <li><img src={check} alt="" /> Innovation</li>
+                <li><img src={check} alt="" /> Client-Centric Approach</li>
+                <li><img src={check} alt="" /> Social Responsibility</li>
+              </ul>
+            </div>
+        </div>
+          <div className="why-title">
+            <h3>WHY CHOOSE US</h3>
+            <p>We are committed to making a valuable contribution to you and your Business.</p>
+          </div>
+        <div className="why-us">
+        {whyUs.map((why,index)=>{
+                return <div key={index} className='format'>
+                  <div className="card">
+                  <img src={why.img} alt="" />
+                    <h2>{why.title}</h2>
+                  </div>
+                    <p>{why.text}</p>
+                </div>
+            })}
+        </div>
+            <div className="sub-title">
+              <h2>SUBSIDIARY COMPANIES</h2>
+            </div>
+      <div className="SUBSIDIARy">
+
+        <div className="card">
+          <h3>Paper-Link Business Consult </h3>
+          <ul>
+            <li>CV & Cover Letter Writing</li>
+            <li>LinkedIn Optimization</li>
+            <li>Business Plans & Business Proposals</li>
+            <li> Long Essay/Thesis Assistance/Research Assistance </li>
+            <li>Tertiary &Scholarship Application Assistance</li>
+            <li>Career Development Training</li>
+          </ul>
+        </div>
+
+        <div className="card">
+          <h3>Real Estate Strategies & Logistics</h3>
+          <ul>
+            <li>Rental Services</li>
+            <li>Strategic Advice on Property Investment </li>
+            <li>Mortgage Assistance </li>
+            <li>Business Plans & Business ProposalsReal Estate Marketing.</li>
+          </ul>
+        </div>
+
+        <div className="card">
+          <h3>Solution Space Technologies</h3>
+          <ul>
+            <li>Web development & Design </li>
+            <li>Graphic Design</li>
+            <li>Cyber Security Solutions</li>
+            <li>Remote IT Support </li>
+            <li>Accounting Software Training; QuickBooks,Spreadsheets, Sage Accounting etc.</li>
+          </ul>
+        </div>
+
+        <div className="card">
+          <h3>Fin Wise Consultancy</h3>
+          <ul>
+            <li>Tax Consulting Services </li>
+            <li>Investment Advisory Service </li>
+            <li>Risk Management Consulting Services</li>
+            <li>Debt Management & Restructuring Services</li>
+            <li>Financial Planning; retirement planning etc.</li>
+          </ul>
+        </div>
+
+      </div>
+      <div className="sub-img">
+        <img src={pl} alt="" />
+        <img src={est} alt="" />
+        <img src={sst} alt="" />
+        <img src={fwc} alt="" />
+      </div>
+    </main>
+  )
+}
+
+export default Home

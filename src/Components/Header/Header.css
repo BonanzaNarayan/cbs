@@ -1,0 +1,118 @@
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 5px;
+    background: white;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    z-index: 1000;
+}
+header nav li hr{
+    height: 5px;
+    border: 0;
+    background: rgb(51, 51, 204);
+    border-radius: 10px;
+}
+.logo img{
+    width: 7rem;
+    height: 7rem;
+}
+.navBtn{
+    visibility: hidden;
+    position: absolute;
+    right: 0;
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.navBtn span{
+    width: 100%;
+    height: 5px;
+    background: rgb(32, 32, 255);
+    border-radius: 10px;
+}
+nav button{
+    visibility: hidden;
+    position: absolute;
+    bottom: 0;
+    border-radius: 50%;
+    width: 3rem;
+    height: 3rem;
+    font-size: 2rem;
+    color: white;
+    background: rgb(32, 32, 255);
+    border: 0;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    list-style: none;
+}
+nav ul li a{
+    color: rgb(32, 32, 255);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+nav ul li a:hover{
+    color: rgb(132, 132, 252);
+    transition: 0.2s;
+}
+nav ul li:hover{
+    transform: scale(1.3);
+    transition: 0.2s;
+}
+.contact a{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.2rem;
+    color: white;
+    background: rgb(32, 32, 255);
+    padding: 10px;
+    border-radius: 20px;
+}
+.contact:hover{
+    transform: scale(1.3);
+    transition: 0.3s ease-in-out;
+    box-shadow: 0 0 10px rgb(132, 132, 252);
+}
+nav ul li hr{
+    width: 40px;
+}
+
+@media (max-width: 1028px){
+    .logo img{
+        width: 5rem;
+        height: 5rem;
+    }
+    nav button{
+        visibility: visible;
+    }
+    .navBtn{
+        visibility: visible;
+    }
+    nav{
+        position: fixed;
+        right: 0;
+        top: -55vh;
+        background: rgb(250, 250, 250);
+        width: 60%;
+        height: 50vh;
+        border-radius: 0.5rem 0 0 2rem;
+        transition: 0.5s;
+    }
+    nav ul{
+        margin-top: 50px;
+       flex-direction: column;
+    }
+}

@@ -1,0 +1,297 @@
+main{
+    position: relative;
+}
+.container{
+    position: relative;
+    height: 100vh;
+    background-image: url(../../assets/icons/christin-hume-Hcfwew744z4-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    padding: 20px 50px;
+}
+.container .welcome-home{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.container .welcome-home h2{
+    font-size: 3rem;
+    color: rgb(64, 147, 255);
+}
+.container .welcome-home p{
+    color: white;
+}
+.container .welcome-home p:nth-child(2){
+    font-size: 4rem;
+}
+.container .welcome-home p:last-child{
+    width: 100%;
+    font-size: 2rem;
+}
+.container .welcome-home h1{
+    font-size: 1.5rem;
+    color: rgb(75, 183, 255);
+}
+.mis-vi{
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 20px 50px;
+}
+.mis-vi .format .card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 200px;
+    height: 200px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.678);
+    border-radius: 10px;
+} 
+.mis-vi .format{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 40%;
+    gap: 30px;
+}
+.mis-vi .format p{
+    font-weight: 500;
+    font-size: 1.2rem;
+    width: 70%;
+}
+.mis-vi .format .card img{
+    box-shadow:  0 0 10px rgba(0, 0, 0, 0.486);
+    padding: 5px;
+    border-radius: 50%;
+    width: 5rem;
+    filter: invert(31%) sepia(78%) saturate(1211%) hue-rotate(190deg) brightness(107%) contrast(106%);
+}
+.values-card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.values-card .img-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 200px;
+    height: 200px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.678);
+    border-radius: 10px;
+}
+.values-card .img-title img{
+    width: 5rem;
+    filter: invert(31%) sepia(78%) saturate(1211%) hue-rotate(190deg) brightness(107%) contrast(106%);
+}
+.values-card ul li{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.values-card ul{
+    display: grid;
+    gap: 10px;
+}
+.values-card ul li img{
+    width: 1.5rem;
+}
+.why-us{
+    gap: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background: rgb(7, 7, 143);
+    padding: 10px;
+}
+.why-us .format{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 40%;
+    gap: 20px;
+}
+.why-us .format .card h2{
+    font-size: 1rem;
+    text-align: center;
+}
+.why-us .format .card img{
+    width: 4rem;
+    filter: invert(31%) sepia(78%) saturate(1211%) hue-rotate(190deg) brightness(107%) contrast(106%);
+}
+.why-us .format .card{
+    gap: 10px;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: white;
+}
+.why-us .format p{
+    color: white;
+    font-size: 0.9rem;
+}
+.why-title{
+    padding: 20px 50px;
+    background: rgb(64, 147, 255);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.why-title h3{
+    width: 15rem;
+    padding: 5px;
+    border-radius: 20px;
+    color: rgb(10, 79, 170);
+    background: white;
+}
+.why-title p{
+    font-weight: 500;
+}
+
+.sub-title{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.SUBSIDIARy{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 20px 50px;
+    background: whitesmoke;
+}
+.SUBSIDIARy .card{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 90%;
+    margin: 10px;
+}
+.SUBSIDIARy .card h3{
+    font-size: 1rem;
+    color: rgb(5, 66, 146);
+}
+.SUBSIDIARy .card ul{
+    padding: 20px;
+    display: grid;
+    height: 15rem;
+    gap: 9px;
+    background: white;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.39);
+    border-radius: 20px;
+}
+.SUBSIDIARy .card ul li{
+    font-weight: 540;
+}
+.sub-img{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.sub-img img{
+    width: 6rem;
+}
+
+@media (max-width: 1028px){
+    .container{
+        height: 70vh;
+    }
+    .container .welcome-home p:nth-child(2){
+        font-size: 3rem;
+    }
+    .container .welcome-home{
+        margin-top: 50px;
+    }
+    .container .welcome-home p:last-child{
+        width: 100%;
+        font-size: 1rem;
+    }
+    .mis-vi{
+        padding: 10px;
+    }
+    .mis-vi .format p{
+        width: 100%;
+    }
+    
+    .SUBSIDIARy{
+        padding: 15px;
+    }
+    .SUBSIDIARy .card{
+        width: 90%;
+    }
+    .SUBSIDIARy .card ul li{
+        font-size: 0.8rem;
+        font-weight: 550;
+    }
+}
+@media (max-width: 600px){
+    .container{
+        height: 50vh;
+        background-position: right;
+        padding: 10px;
+    }
+    .container .welcome-home{
+        margin-top: 100px;
+        gap: 10px;
+    }
+    .container .welcome-home h2{
+        font-size: 1.6rem;
+    }
+    .container .welcome-home h1{
+        font-size: 1rem;
+    }
+    .container .welcome-home p:nth-child(2){
+        font-size: 1.5rem;
+    }
+    .container .welcome-home p:last-child{
+        font-size: 0.8rem;
+    }
+    .mis-vi .format{
+        width: 100%;
+    }
+    .mis-vi .format p{
+        width: 80%;
+        font-size: 0.9rem;
+    }
+    .values-card{
+        flex-direction: column;
+    }
+    .why-us .format p{
+        font-size: 0.8rem;
+    }
+    .why-title{
+        padding: 10px;
+    }
+    .why-title p{
+        font-size: 0.8rem;
+    }
+    .SUBSIDIARy{
+        grid-template-columns: 1fr;
+    }
+    .SUBSIDIARy .card{
+        margin: 10px;
+    }
+    .sub-img img{
+        width: 4rem;
+    }
+}

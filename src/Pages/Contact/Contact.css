@@ -1,0 +1,134 @@
+.contact-page{
+    min-height: 100vh;
+    margin: 20px 50px;
+}
+.title-con{
+    margin-top: 35vh;
+    color: rgb(24, 55, 148);
+
+    hr{
+        width: 200px;
+        height: 6px;
+        border: 0;
+        border-radius: 10px;
+        background: rgb(24, 55, 148);
+    }
+}
+.container-con{
+    display: flex;
+    justify-content: space-between;
+}
+.all-info{
+    margin-top: 35px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    font-size: 1.1rem;
+}
+.location span{
+    color: rgb(24, 55, 148);
+}
+.tel{
+    ul{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        list-style: none;
+    }
+
+    p{
+        color: rgb(24, 55, 148);
+    }
+}
+.emails{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+    h2{
+        color: rgb(24, 55, 148);
+    }
+}
+.socials-links{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.socials-links a{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    font-weight: 500;
+    width: 11%;
+}
+.socials-links a img{
+    width: 3rem;
+}
+.form{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    h2{
+        color: rgb(24, 55, 148);
+        hr{
+            width: 200px;
+            height: 6px;
+            border: 0;
+            border-radius: 10px;
+            background: rgb(24, 55, 148);
+        }
+    }
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    p{
+        font-size: 1rem;
+        span{
+            color: red;
+        }
+    }
+
+    input{
+        padding: 10px;
+        height: 3rem;
+    }
+    textarea{
+        height: 30vh;
+        resize: none;
+        padding: 10px;
+    }
+    button{
+        padding: 10px;
+        font-size: 1.3rem;
+        background: rgb(24, 55, 148);
+        border: 0;
+        color: white;
+        width: 10rem;
+        border-radius: 5px;
+    }
+}
+
+@media (max-width: 1028px){
+    .contact-page{
+        margin: 20px;
+    }
+    .title-con{
+        margin-top: 20vh;
+        font-size: 0.8rem;
+    }
+    .container-con{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .form{
+        width: 80%;
+    }
+    form textarea{
+        font-size: 1.2rem;
+    }
+}

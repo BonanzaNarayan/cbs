@@ -1,0 +1,160 @@
+.services-page{
+    min-height: 100vh;
+    margin: 20px 50px;
+}
+.title{
+    margin-top: 25vh;
+    color: rgb(25, 66, 189);
+    hr{
+        width: 100px;
+        height: 6px;
+        border: 0;
+        background: rgb(25, 66, 189);
+        border-radius: 10px;
+    }
+}
+.offers{
+    margin-top: 5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background: rgb(35, 155, 236);
+    height: 7rem;
+    padding: 20px 50px;
+}
+.offer{
+    box-shadow:  0 0 5px gray;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 200px;
+    width: 200px;
+    flex-direction: column;
+    gap: 20px;
+
+    text-align: center;
+    font-size: 1.1rem;
+}
+.offer img{
+    width: 5rem;
+}
+.services{
+    margin-top: 10rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+.services .card{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    gap: 10px;
+    width: 90%;
+    border: 1px solid rgba(35, 155, 236, 0.288);
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(128, 128, 128, 0.39) inset;
+
+    p{
+        line-height: 23px;
+        width: 90%;
+    }
+    h1{
+        color: rgb(25, 66, 189);
+    }
+}
+.services .card:hover{
+    border: 1px solid rgb(35, 155, 236);
+    transition: 0.3s;
+}
+.services .card img{
+    width: inherit;
+}
+.over{
+    margin-top: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    background: rgba(218, 218, 218, 0.288);
+    border-radius: 20px;
+    padding: 20px;
+}
+.over .left{
+    background: white;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 0 0 7px rgba(199, 199, 199, 0.685);
+}
+.over .left img{
+    width: 10rem;
+    filter: invert(31%) sepia(78%) saturate(1211%) hue-rotate(190deg) brightness(107%) contrast(106%);
+}
+.over .right{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-weight: 500;
+    font-size: 1.1rem;
+
+    p{
+        font-weight: 550;
+        span{
+            font-weight: normal;
+        }
+    }
+    ul{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
+@media (max-width: 1028px){
+    .services-page{
+        margin: 20px;
+    }
+    .offers{
+        padding: 20px;
+        gap: 10px;
+        p{
+            font-size: 0.8rem;
+        }
+    }
+    .offer{
+        padding: 10px;
+        width: 100%;
+    }
+    .services .card{
+        width: 100%;
+
+        h1{
+            font-size: 1.5rem;
+        }
+        p{
+            line-height: 20px;
+        }
+    }
+    .over .right{
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 600px){
+    .services-page{
+        margin: 10px;
+    }
+    .offers{
+        grid-template-columns: 1fr 1fr;
+    }
+    .offer{
+        width: 100%;
+    }
+    .services{
+        margin-top: 22rem;
+        grid-template-columns: 1fr;
+    }
+    .over{
+        flex-direction: column;
+    }
+}
