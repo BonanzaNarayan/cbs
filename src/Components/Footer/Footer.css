@@ -2,15 +2,22 @@
 .footer-nav{
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
+    flex-direction: column;
     background: rgb(44, 195, 255);
     list-style: none;
-    padding: 10px;
+    padding: 20px;
 }
-.footer-nav li a{
-    text-decoration: none;
+.footer-nav h3{
+    text-align: center;
     color: white;
-    font-size: 1.5rem;
+}
+.footer-nav p{
+    text-align: center;
+    margin-top: 15px;
+    text-decoration: none;
+    color: rgb(31, 31, 31);
+    font-size: 1rem;
 }
 .copy-right{
     padding: 20px 50px;
@@ -22,9 +29,54 @@
 .copy-right a{
     text-decoration: none;
 }
+.subscribe-footer{
+    padding: 20px 50px;
+}
+.subscribe-footer h1{
+    color: blue;
+    font-size: 1.5rem;
+    width: 30%;
+}
+.subscribe-footer p{
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: rgb(31, 31, 31);
+    width: 70%;
+}
+.subscribe-footer .sub-footer{
+    display: flex;
+    align-items: center;
+
+    margin-top: 30px;
+}
+.subscribe-footer .sub-footer input{
+    padding: 10px;
+    width: 18rem;
+    border-radius: 6px 0 0 6px;
+    border: 0;
+    background: rgb(223, 223, 223);
+}
+.subscribe-footer .sub-footer button{
+    padding: 10px;
+    width: 7rem;
+    border: 0;
+    border-radius: 0 6px 6px 0;
+    background: rgb(13, 74, 240);
+    color: white;
+}
 
 @media (max-width: 600px){
-    .footer-nav li a{
-        font-size: 1.2rem;
+    .subscribe-footer{
+        padding: 20px;
+    }
+    .subscribe-footer h1{
+        width: 90%;
+    }
+    .subscribe-footer p{
+        width: 90%;
+        font-size: 1rem;
+    }
+    .subscribe-footer .sub-footer input{
+        width: 12rem;
     }
 }

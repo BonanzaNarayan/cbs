@@ -42,7 +42,7 @@ function Contact() {
 
             <div className="form">
                 <h2>You Can Reach Us With This Form <hr /></h2>
-                <form action="https://formsubmit.co/corporatebosssolutions@gmail.com">
+                <form action="https://formsubmit.co/corporatebosssolutions@gmail.com" className='send-message'>
                     <p>Name <span>*</span></p>
                     <input type="text"  name='Name' placeholder='Full Name' required/>
                     <p>Email <span>*</span></p>

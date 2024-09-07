@@ -5,8 +5,8 @@ import values from '../../assets/icons/values.png'
 import check from '../../assets/icons/check.png'
 import whyUs from '../../assets/Data/why'
 
-import sst from '../../assets/icons/SST.png'
-import pl from '../../assets/icons/PL.png'
+import sst from '../../assets/new_logos/IMG_5070.jpg'
+import pl from '../../assets/new_logos/IMG_5069.jpg'
 import fwc from '../../assets/icons/FWC.png'
 import est from '../../assets/icons/ESTATE.png'
 
@@ -42,6 +42,8 @@ function Home() {
               <ul>
                 <li><img src={check} alt="" /> Excellence</li>
                 <li><img src={check} alt="" /> Integrity</li>
+                <li><img src={check} alt="" /> Professionalism</li>
+                <li><img src={check} alt="" /> Empowerment</li>
                 <li><img src={check} alt="" /> Innovation</li>
                 <li><img src={check} alt="" /> Client-Centric Approach</li>
                 <li><img src={check} alt="" /> Social Responsibility</li>
@@ -74,7 +76,7 @@ function Home() {
             <li>CV & Cover Letter Writing</li>
             <li>LinkedIn Optimization</li>
             <li>Business Plans & Business Proposals</li>
-            <li> Long Essay/Thesis Assistance/Research Assistance </li>
+            <li>Long Essay/Thesis Assistance/Research Assistance </li>
             <li>Tertiary &Scholarship Application Assistance</li>
             <li>Career Development Training</li>
           </ul>
@@ -86,7 +88,7 @@ function Home() {
             <li>Rental Services</li>
             <li>Strategic Advice on Property Investment </li>
             <li>Mortgage Assistance </li>
-            <li>Business Plans & Business ProposalsReal Estate Marketing.</li>
+            <li>Real Estate Marketing.</li>
           </ul>
         </div>
 

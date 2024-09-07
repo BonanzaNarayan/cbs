@@ -4,13 +4,14 @@ main{
 .container{
     position: relative;
     height: 100vh;
-    background-image: url(../../assets/icons/christin-hume-Hcfwew744z4-unsplash.jpg);
+    background-image: linear-gradient( rgba(53, 53, 53, 0.151), rgba(26, 26, 26, 0.548)), url(../../assets/icons/christin-hume-Hcfwew744z4-unsplash.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
     align-items: center;
     padding: 20px 50px;
+    overflow: auto;
 }
 .container .welcome-home{
     display: flex;
@@ -19,21 +20,22 @@ main{
 }
 .container .welcome-home h2{
     font-size: 3rem;
-    color: rgb(64, 147, 255);
+    color: rgb(10, 77, 165);
 }
 .container .welcome-home p{
     color: white;
 }
 .container .welcome-home p:nth-child(2){
-    font-size: 4rem;
+    font-size: 2rem;
 }
 .container .welcome-home p:last-child{
+    margin-top: 50px;
     width: 100%;
     font-size: 2rem;
 }
 .container .welcome-home h1{
-    font-size: 1.5rem;
-    color: rgb(75, 183, 255);
+    font-size: 3rem;
+    color: rgb(10, 77, 165);
 }
 .mis-vi{
     position: relative;
@@ -44,6 +46,7 @@ main{
     flex-wrap: wrap;
     gap: 30px;
     padding: 20px 50px;
+    text-align: center;
 }
 .mis-vi .format .card{
     display: flex;
@@ -80,6 +83,7 @@ main{
     display: flex;
     align-items: center;
     justify-content: center;
+    min-height: 40vh;
     gap: 20px;
 }
 .values-card .img-title{
@@ -107,7 +111,7 @@ main{
     gap: 10px;
 }
 .values-card ul li img{
-    width: 1.5rem;
+    width: 1.2rem;
 }
 .why-us{
     gap: 30px;
@@ -147,13 +151,17 @@ main{
     background: white;
 }
 .why-us .format p{
+    text-align: center;
     color: white;
-    font-size: 0.9rem;
+    font-size: 1.1rem;
 }
 .why-title{
     padding: 20px 50px;
-    background: rgb(64, 147, 255);
+    background: rgb(20, 210, 223);
     display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
     flex-direction: column;
     gap: 10px;
 }
@@ -166,6 +174,8 @@ main{
 }
 .why-title p{
     font-weight: 500;
+    font-size: 1rem;
+    color: rgb(27, 27, 27);
 }
 
 .sub-title{
@@ -201,7 +211,8 @@ main{
     border-radius: 20px;
 }
 .SUBSIDIARy .card ul li{
-    font-weight: 540;
+    font-weight: 500;
+    font-size: 1.1rem;
 }
 .sub-img{
     display: flex;
@@ -209,7 +220,13 @@ main{
     justify-content: space-around;
 }
 .sub-img img{
-    width: 6rem;
+    width: 8rem;
+}
+.sub-img img:first-child{
+    width: 9rem;
+}
+.sub-img img:nth-child(3){
+    width: 9rem;
 }
 
 @media (max-width: 1028px){
@@ -231,6 +248,8 @@ main{
     }
     .mis-vi .format p{
         width: 100%;
+        font-size: 1rem;
+        line-height: 30px;
     }
     
     .SUBSIDIARy{
@@ -258,13 +277,15 @@ main{
         font-size: 1.6rem;
     }
     .container .welcome-home h1{
-        font-size: 1rem;
+        font-size: 1.3rem;
     }
     .container .welcome-home p:nth-child(2){
         font-size: 1.5rem;
     }
     .container .welcome-home p:last-child{
-        font-size: 0.8rem;
+        margin-top: 30px;
+        font-size: 0.9rem;
+        line-height: 20px;
     }
     .mis-vi .format{
         width: 100%;
@@ -283,7 +304,7 @@ main{
         padding: 10px;
     }
     .why-title p{
-        font-size: 0.8rem;
+        font-size: 0.9rem;
     }
     .SUBSIDIARy{
         grid-template-columns: 1fr;
@@ -293,5 +314,11 @@ main{
     }
     .sub-img img{
         width: 4rem;
+    }
+    .sub-img img:first-child{
+        width: 6rem;
+    }
+    .sub-img img:nth-child(3){
+        width: 6rem;
     }
 }

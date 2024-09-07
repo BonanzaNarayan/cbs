@@ -6,13 +6,14 @@
     margin-top: 35vh;
     color: rgb(24, 55, 148);
 
-    hr{
-        width: 200px;
-        height: 6px;
-        border: 0;
-        border-radius: 10px;
-        background: rgb(24, 55, 148);
-    }
+    
+}
+.title-con hr{
+    width: 200px;
+    height: 6px;
+    border: 0;
+    border-radius: 10px;
+    background: rgb(24, 55, 148);
 }
 .container-con{
     display: flex;
@@ -28,26 +29,25 @@
 .location span{
     color: rgb(24, 55, 148);
 }
-.tel{
-    ul{
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
-        list-style: none;
-    }
+.tel ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    list-style: none;
+}
 
-    p{
-        color: rgb(24, 55, 148);
-    }
+.t p{
+    color: rgb(24, 55, 148);
 }
 .emails{
     display: flex;
     flex-direction: column;
     gap: 5px;
 
-    h2{
-        color: rgb(24, 55, 148);
-    }
+    
+}
+.emails h2{
+    color: rgb(24, 55, 148);
 }
 .socials-links{
     display: flex;
@@ -71,46 +71,51 @@
     flex-direction: column;
     gap: 20px;
 
-    h2{
-        color: rgb(24, 55, 148);
-        hr{
-            width: 200px;
-            height: 6px;
-            border: 0;
-            border-radius: 10px;
-            background: rgb(24, 55, 148);
-        }
-    }
+    
 }
-form{
+.form h2{
+    color: rgb(24, 55, 148);
+    
+}
+.form h2 hr{
+    width: 200px;
+    height: 6px;
+    border: 0;
+    border-radius: 10px;
+    background: rgb(24, 55, 148);
+}
+.send-message{
     display: flex;
     flex-direction: column;
     gap: 20px;
-    p{
-        font-size: 1rem;
-        span{
-            color: red;
-        }
-    }
+    
 
-    input{
-        padding: 10px;
-        height: 3rem;
-    }
-    textarea{
-        height: 30vh;
-        resize: none;
-        padding: 10px;
-    }
-    button{
-        padding: 10px;
-        font-size: 1.3rem;
-        background: rgb(24, 55, 148);
-        border: 0;
-        color: white;
-        width: 10rem;
-        border-radius: 5px;
-    }
+    
+}
+.send-message p{
+    font-size: 1rem;
+    
+}
+.send-message p span{
+    color: red;
+}
+.send-message input{
+    padding: 10px;
+    height: 3rem;
+}
+.send-message textarea{
+    height: 30vh;
+    resize: none;
+    padding: 10px;
+}
+.send-message button{
+    padding: 10px;
+    font-size: 1.3rem;
+    background: rgb(24, 55, 148);
+    border: 0;
+    color: white;
+    width: 10rem;
+    border-radius: 5px;
 }
 
 @media (max-width: 1028px){
@@ -128,7 +133,7 @@ form{
     .form{
         width: 80%;
     }
-    form textarea{
+    .send-message textarea{
         font-size: 1.2rem;
     }
 }

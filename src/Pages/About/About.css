@@ -25,7 +25,19 @@
 .heads-about p{
     font-size: 1.1rem;
     line-height: 30px;
-    font-weight: 520;
+    font-weight: 500;
+}
+.heads-about ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 25px;
+}
+.heads-about ul li{
+    font-weight: 500;
+    line-height: 25px;
 }
 .heads-img{
     display: flex;
@@ -128,6 +140,16 @@
     overflow: hidden;
     border-radius: 50%;
     background-image: url(../../assets/Images/bona.PNG);
+    background-position: center;
+    background-size: 10rem;
+    background-repeat: no-repeat;
+    width: 10rem;
+    height: 10rem;
+}
+.team .left .img-6{
+    overflow: hidden;
+    border-radius: 50%;
+    background-image: url(../../assets/Images/tracy.jpg);
     background-position: center;
     background-size: 10rem;
     background-repeat: no-repeat;

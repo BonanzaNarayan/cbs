@@ -3,7 +3,6 @@ import './About.css'
 import group from '../../assets/icons/group.jpg'
 import hand from '../../assets/icons/hand.jpg'
 import team from '../../assets/icons/customer.png'
-import joseph from '../../assets/Images/joseph.jpg'
 
 function About() {
   return (
@@ -18,6 +17,28 @@ function About() {
           in today's competitive landscape. With a team of seasoned professionals who bring years of industry
           experience and a passion for excellence, we are committed to delivering results that exceed
           expectations and drive success for our clients.</p>
+
+          <ul>
+            <li>❖ IT Services: Our dedicated IT team offers a suite of services including software
+development, web design, cybersecurity solutions, cloud computing, data
+analytics, and IT consulting. We work closely with clients to develop customized
+IT solutions that enhance efficiency, streamline operations, and drive innovation.</li>
+            <li>❖ Financial Consultancy: Leveraging our expertise in finance and investment, we
+provide comprehensive financial consultancy services tailored to the unique
+needs of each client. From financial planning and investment advisory to risk
+management and mergers and acquisitions consulting, we help businesses
+navigate complex financial landscapes and achieve their goals.</li>
+            <li>❖ Professional and Academic Writing: Our team of skilled writers and editors
+specializes in crafting compelling content for both professional and academic
+purposes. Whether it's business reports, marketing materials, academic papers,
+or technical documentation, we deliver polished and engaging content that
+resonates with audiences and drives results.</li>
+            <li>❖ Real Estate: In the realm of real estate, we offer a range of services including
+property management, brokerage, investment analysis, and leasing. With our
+in-depth market knowledge and strategic insights, we assist clients in finding the
+perfect real estate solutions that align with their business objectives and drive
+growth.</li>
+          </ul>
       </div>
       <div className="heads-img">
         <img src={hand} alt="" />
@@ -52,6 +73,17 @@ function About() {
           </div>
         </div>
 
+        {/* <div className="team">
+          <div className="left">
+            <div className="img-2"></div>
+            <p>Executive Director</p>
+          </div>
+          <div className="right">
+            <h2>Godwin Adu Brefo</h2>
+            <p>Godwin Adu Brefo serves as the Executive Director of Corporate Boss Solutions, leveraging his visionary leadership to drive the company's success. Concurrently, he pursues his academic endeavors at the University of Professional Studies Accra (UPSA), currently in his third year of study. With a robust skill set encompassing accounting, finance, administration, and graphic design.</p>
+          </div>
+        </div> */}
+
         <div className="team">
           <div className="left">
             <div className="img-3"></div>
@@ -82,6 +114,17 @@ function About() {
           <div className="right">
             <h2>Bonanza Kweku Narayan</h2>
             <p>Bonanza Kweku Narayan is the IT Executive. He is a skilled software developer  pursuing a Bachelor of Science in Information Technology Management at  UPSA. Through self-learning platforms like FreeCodeCamp and Harvard University's CS50 course, he has honed his skills in JavaScript, HTML, CSS, Python, React, Node.js, and MongoDB. Specializing in full-stack development, he ensures seamless integration and optimal performance across both front-end and back-end aspects of projects.</p>
+          </div>
+        </div>
+
+        <div className="team">
+          <div className="left">
+            <div className="img-6"></div>
+            <p>Company Secretary </p>
+          </div>
+          <div className="right">
+            <h2>Tracy Afia Ahensima Danso</h2>
+            <p>Tracy Afia Ahensima Danso is a dedicated Level 200 student at Central University, majoring in Media and Communication Studies. With a strong foundation in communication theory and practice, Tracy brings a fresh perspective to our team. Her leadership skills are evident in her proactive approach to tasks, ensuring efficient coordination and execution of responsibilities. Tracy's writing abilities are top-notch, evident in her clear and concise communication style. As our Company Secretary, Tracy plays a crucial role in maintaining smooth operations and fostering effective communication within our organization.</p>
           </div>
         </div>
 

@@ -47,6 +47,7 @@
 .services .card{
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-direction: column;
     padding: 10px;
     gap: 10px;
@@ -55,13 +56,15 @@
     border-radius: 10px;
     box-shadow: 0 0 5px rgba(128, 128, 128, 0.39) inset;
 
-    p{
-        line-height: 23px;
-        width: 90%;
-    }
-    h1{
-        color: rgb(25, 66, 189);
-    }
+    
+}
+.services .card p{
+    text-align: center;
+    line-height: 23px;
+    width: 90%;
+}
+.services .card h1{
+    color: rgb(25, 66, 189);
 }
 .services .card:hover{
     border: 1px solid rgb(35, 155, 236);
@@ -97,17 +100,19 @@
     font-weight: 500;
     font-size: 1.1rem;
 
-    p{
-        font-weight: 550;
-        span{
-            font-weight: normal;
-        }
-    }
-    ul{
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
-    }
+    
+}
+.over .right p{
+    font-weight: 550;
+    
+}
+.over .right p span{
+    font-weight: normal;
+}
+.over .right ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
 @media (max-width: 1028px){

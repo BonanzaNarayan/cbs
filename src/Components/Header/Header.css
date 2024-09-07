@@ -25,8 +25,8 @@ header nav li hr{
     visibility: hidden;
     position: absolute;
     right: 0;
-    width: 30px;
-    height: 30px;
+    width: 25px;
+    height: 25px;
     margin-right: 10px;
 
     display: flex;
@@ -36,7 +36,7 @@ header nav li hr{
 .navBtn span{
     width: 100%;
     height: 5px;
-    background: rgb(32, 32, 255);
+    background: rgb(15, 15, 17);
     border-radius: 10px;
 }
 nav button{
@@ -48,7 +48,7 @@ nav button{
     height: 3rem;
     font-size: 2rem;
     color: white;
-    background: rgb(32, 32, 255);
+    background: rgb(1, 8, 26);
     border: 0;
 }
 nav ul{
@@ -72,19 +72,23 @@ nav ul li:hover{
     transform: scale(1.3);
     transition: 0.2s;
 }
+.contact{
+    padding: 10px;
+    border-radius: 20px;
+}
 .contact a{
     text-decoration: none;
     font-weight: 500;
-    font-size: 1.2rem;
+    font-size: 1rem;
     color: white;
-    background: rgb(32, 32, 255);
+    background: rgb(15, 15, 17);
     padding: 10px;
     border-radius: 20px;
 }
 .contact:hover{
     transform: scale(1.3);
     transition: 0.3s ease-in-out;
-    box-shadow: 0 0 10px rgb(132, 132, 252);
+    box-shadow: 0 0 5px rgb(42, 42, 46);
 }
 nav ul li hr{
     width: 40px;
@@ -106,6 +110,7 @@ nav ul li hr{
         right: 0;
         top: -55vh;
         background: rgb(250, 250, 250);
+        box-shadow: 0 0 5px rgb(0, 0, 29);
         width: 60%;
         height: 50vh;
         border-radius: 0.5rem 0 0 2rem;
@@ -114,5 +119,13 @@ nav ul li hr{
     nav ul{
         margin-top: 50px;
        flex-direction: column;
+    }
+    .contact a{
+        font-size: 1rem;
+    }
+}
+@media (max-width: 600px){
+    .contact a{
+        font-size: 0.8rem;
     }
 }
