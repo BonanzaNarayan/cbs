@@ -39,39 +39,11 @@
     width: 5rem;
 }
 .services{
-    margin-top: 10rem;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 10px;
-}
-.services .card{
+    margin-top: 20rem;
     display: flex;
-    justify-content: center;
     align-items: center;
-    flex-direction: column;
-    padding: 10px;
-    gap: 10px;
-    width: 90%;
-    border: 1px solid rgba(35, 155, 236, 0.288);
-    border-radius: 10px;
-    box-shadow: 0 0 5px rgba(128, 128, 128, 0.39) inset;
-
-    
-}
-.services .card p{
-    text-align: center;
-    line-height: 23px;
-    width: 90%;
-}
-.services .card h1{
-    color: rgb(25, 66, 189);
-}
-.services .card:hover{
-    border: 1px solid rgb(35, 155, 236);
-    transition: 0.3s;
-}
-.services .card img{
-    width: inherit;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 .over{
     margin-top: 5rem;
@@ -130,16 +102,6 @@
         padding: 10px;
         width: 100%;
     }
-    .services .card{
-        width: 100%;
-
-        h1{
-            font-size: 1.5rem;
-        }
-        p{
-            line-height: 20px;
-        }
-    }
     .over .right{
         font-size: 1rem;
     }
@@ -154,10 +116,6 @@
     }
     .offer{
         width: 100%;
-    }
-    .services{
-        margin-top: 22rem;
-        grid-template-columns: 1fr;
     }
     .over{
         flex-direction: column;
