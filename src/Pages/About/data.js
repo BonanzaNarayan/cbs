@@ -2,7 +2,7 @@ import joh from '../../assets/Images/joseph.jpg'
 import Godwin from '../../assets/Images/godwin.jpg'
 import Isaac from '../../assets/Images/142c9c88-7511-4a28-ad0e-b170e646f4bc.jpg'
 import Stephenin from '../../assets/Images/502ca998-24f4-440f-ac92-84a19b1c6c18.jpg'
-import bona from '../../assets/Images/bona.png'
+//import bona from '../../assets/Images/bona.png'
 import tracy from '../../assets/Images/tracy.jpg'
 const about = [
     {
@@ -35,7 +35,7 @@ const about = [
     },
     {
         name: "Bonanza Kweku Narayan",
-        img: bona,
+        img: '../../assets/Images/bona.png',
         role: "IT Executive",
         desc: "He is a skilled software developer  pursuing a Bachelor of Science in Information Technology Management at  UPSA. Through self-learning platforms like FreeCodeCamp and Harvard University's CS50 course, he has honed his skills in JavaScript, HTML, CSS, Python, React, Node.js, and MongoDB. Specializing in full-stack development, he ensures seamless integration and optimal performance across both front-end and back-end aspects of projects.",
         link: ""
