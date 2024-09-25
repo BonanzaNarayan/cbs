@@ -32,15 +32,17 @@ const PostDetails = () => {
         </div>
         <div className="container">
           <div className=''>
+
           <div className='imgCon'>
             {post.imageUrls.map((url, index) => (
-              
                 <img src={url} key={index}  className='rounded-xl' alt={post.title} />
-              
             ))}
             </div>
-            <h2 className='text-xl bold m-5'>{post.title}</h2>
-            <p className='bold m-6 w-full'>{post.description}</p>
+
+            <div className='flex justify-center align-middle flex-col p-5 w-full'>
+              <h2 className='text-2xl text-gray-950 font-bold m-5 text-center'>{post.title}</h2>
+              <p className='bold p-5 text-center w-full'>{post.description}</p>
+            </div>
           </div>
         </div>
         <Footer />
