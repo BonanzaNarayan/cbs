@@ -11,7 +11,7 @@ function Header() {
     }
 
     const closeMenu = () => {
-        menuRef.current.style.top = "-55vh"
+        menuRef.current.style.top = "-75vh"
     }
 
 
@@ -32,8 +32,8 @@ function Header() {
             <ul>
                 <li><a href="/">Home</a></li>
                 <li><a href="/services">Services</a></li>
-                {/* <li><a href="/blogs">Blogs</a></li> */}
                 <li><a href="/about">About</a></li>
+                <li><a href="/blog">Blog</a></li>
             </ul>
         </nav>
 

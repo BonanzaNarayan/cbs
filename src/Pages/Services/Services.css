@@ -18,11 +18,11 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     background: rgb(35, 155, 236);
+    border-radius: 9px;
     height: 7rem;
     padding: 20px 50px;
 }
 .offer{
-    box-shadow:  0 0 5px gray;
     background: white;
     display: flex;
     align-items: center;
@@ -31,6 +31,7 @@
     width: 200px;
     flex-direction: column;
     gap: 20px;
+    border-radius: 8px;
 
     text-align: center;
     font-size: 1.1rem;

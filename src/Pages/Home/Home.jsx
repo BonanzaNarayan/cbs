@@ -10,10 +10,13 @@ import pl from '../../assets/new_logos/IMG_5069.jpg'
 import fwc from '../../assets/icons/FWC.png'
 import est from '../../assets/icons/ESTATE.png'
 import Hero from '../../Components/Hero'
+import Header from '../../Components/Header/Header'
+import Footer from '../../Components/Footer/Footer'
 
 function Home() {
   return (
     <main>
+      <Header />
       <Hero />
         {/* <div className="container">
           <div className="welcome-home">
@@ -134,7 +137,7 @@ function Home() {
         <img src={sst} alt="" />
         <img src={fwc} alt="" />
       </div>
-      
+      <Footer />
     </main>
   )
 }

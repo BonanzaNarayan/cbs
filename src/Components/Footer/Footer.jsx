@@ -33,11 +33,12 @@ function Footer() {
                 <input
                   type="email"
                   id="UserEmail"
+                  required
                   placeholder="john@rhcp.com"
                   className="w-full border-none focus:border-transparent focus:ring-transparent sm:text-sm p-3 text-lg"
                 />
 
-                <button
+                <button type='submit'
                   className="mt-1 w-full rounded bg-blue-600 px-6 py-3 text-sm font-bold uppercase tracking-wide text-white transition-none hover:bg-blue-500 sm:mt-0 sm:w-auto sm:shrink-0"
                 >
                   Subscribe
@@ -82,16 +83,20 @@ function Footer() {
 
               <ul className="mt-6 space-y-4 text-sm">
                 <li>
-                  <a href="/" className="text-gray-700 transition hover:opacity-75"> Home </a>
+                  <a href="/" className=" text-lg text-gray-700 transition hover:opacity-75"> Home </a>
                 </li>
 
                 <li>
-                  <a href="/services" className="text-gray-700 transition hover:opacity-75"> Services </a>
+                  <a href="/services" className="text-gray-700 text-lg transition hover:opacity-75"> Services </a>
                 </li>
 
+                <li><a className="text-lg" href="/blog">Blog</a></li>
+
                 <li>
-                  <a href="/about" className="text-gray-700 transition hover:opacity-75"> About </a>
+                  <a href="/about" className="text-gray-700 text-lg transition hover:opacity-75"> About </a>
                 </li>
+                {/* <li><a className="text-lg" href="/admin/login">Login</a></li> */}
+                <li><a className="text-lg" href="/admin">Blog Admin</a></li>
               </ul>
             </div>
 
@@ -100,15 +105,15 @@ function Footer() {
 
               <ul className="mt-6 space-y-4 text-sm">
                 <li>
-                  <a href="/contact" className="text-gray-700 transition hover:opacity-75"> Contact </a>
+                  <a href="/contact" className="text-gray-700 text-lg transition hover:opacity-75"> Contact </a>
                 </li>
 
                 <li>
-                  <a href="#" className="text-gray-700 transition hover:opacity-75"> FAQs </a>
+                  <a href="faqs" className="text-gray-700 text-lg transition hover:opacity-75"> FAQs </a>
                 </li>
 
                 <li>
-                  <a href="#" className="text-gray-700 transition hover:opacity-75"> Live Chat </a>
+                  <a href="#" className="text-gray-700 text-lg transition hover:opacity-75"> Live Chat </a>
                 </li>
               </ul>
             </div>
@@ -116,12 +121,12 @@ function Footer() {
 
           <div className="mt-8 border-t border-gray-100 pt-8">
             <ul className="flex flex-wrap gap-4 text-xs">
-              <li>
+              {/* <li>
                 <a href="#" className="text-gray-500 transition hover:opacity-75"> Terms & Conditions </a>
-              </li>
+              </li> */}
 
               <li>
-                <a href="#" className="text-gray-500 transition hover:opacity-75"> Privacy Policy </a>
+                <a href="#" className="text-gray-500  transition hover:opacity-75"> Privacy Policy </a>
               </li>
             </ul>
 

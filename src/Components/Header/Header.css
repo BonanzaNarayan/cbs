@@ -108,11 +108,11 @@ nav ul li hr{
     nav{
         position: fixed;
         right: 0;
-        top: -55vh;
+        top: -75vh;
         background: rgb(250, 250, 250);
         box-shadow: 0 0 5px rgb(0, 0, 29);
         width: 60%;
-        height: 50vh;
+        min-height: 50vh;
         border-radius: 0.5rem 0 0 2rem;
         transition: 0.5s;
     }

@@ -6,10 +6,14 @@ import free from '../../assets/icons/freedom.png'
 import house from '../../assets/icons/house.png'
 import data from './data'
 import graph from '../../assets/icons/graph.png'
+import Header from '../../Components/Header/Header'
+import Footer from '../../Components/Footer/Footer'
 
 
 function Services() {
   return (
+    <div>
+      <Header />
     <main className='services-page'>
       <div className="title">
         <h1>What We Do <hr /></h1>
@@ -17,22 +21,22 @@ function Services() {
 
       <div className="offers">
 
-        <div className="offer">
+        <div className="offer shadow-xl">
           <img src={IT} alt="" />
           <p>IT <br />SERVICES</p>
         </div>
 
-        <div className="offer">
+        <div className="offer shadow-xl">
           <img src={free} alt="" />
           <p>FINANCIAL <br />CONSULTANCY</p>
         </div>
 
-        <div className="offer">
+        <div className="offer shadow-xl">
           <img src={ball} alt="" />
           <p>PROFESSIONAL & <br />ACADEMIC WRITING</p>
         </div>
 
-        <div className="offer">
+        <div className="offer shadow-xl">
           <img src={house} alt="" />
           <p>REAL ESTATE</p>
         </div>
@@ -84,6 +88,8 @@ function Services() {
         </div>
       </div>
     </main>
+    <Footer />
+  </div>
   )
 }
 

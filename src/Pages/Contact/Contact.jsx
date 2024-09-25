@@ -6,8 +6,13 @@ import link from '../../assets/icons/linkedin.png'
 import face from '../../assets/icons/facebook.png'
 import twitter from '../../assets/icons/twitter.png'
 
+import Header from '../../Components/Header/Header'
+import Footer from '../../Components/Footer/Footer'
+
 function Contact() {
   return (
+    <div>
+    <Header />
     <div className='contact-page'>
         <div className="title-con">
             <h1>GET IN TOUCH WITH US <hr /></h1>
@@ -55,6 +60,8 @@ function Contact() {
                 </form>
             </div>
         </div>
+    </div>
+    <Footer />
     </div>
   )
 }
