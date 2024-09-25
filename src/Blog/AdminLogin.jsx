@@ -102,7 +102,7 @@ const AdminLogin = () => {
                   type="password"
                   id="Password"
                   name="password"
-                  value={password} onChange={(e) => setPassword(e.target.value)}
+                  value={password} onChange={(e) => setPassword(e.target.value)} placeholder='Password'
                   className="mt-1 w-[20rem] rounded-md p-3 border-gray-200 bg-white text-sm text-gray-700 shadow-sm"
                 />
               </div>
