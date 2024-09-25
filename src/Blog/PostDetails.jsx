@@ -3,7 +3,7 @@ import { db } from '../configs/firebase';
 import { useParams } from 'react-router-dom';
 import './postD.css'
 import Footer from '../Components/Footer/Footer'
-
+import logo from '../assets/icons/logo.png'
 import { FaBackspace } from "react-icons/fa";
 
 
@@ -27,7 +27,7 @@ const PostDetails = () => {
           <FaBackspace />
           </a>
           <div className="logo">
-            <img style={{width: "70px", height: "70px"}} src="/src/assets/icons/logo.png" alt="" />
+            <img style={{width: "70px", height: "70px"}} src={logo} alt="" />
           </div>
         </div>
         <div className="container">

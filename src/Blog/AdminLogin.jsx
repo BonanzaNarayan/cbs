@@ -3,7 +3,7 @@ import { auth } from '../configs/firebase';
 import { useNavigate } from 'react-router-dom';
 import Footer from '../Components/Footer/Footer'
 
-
+import logo from '../assets/icons/logo.png'
 
 const AdminLogin = () => {
   const [email, setEmail] = useState('');
@@ -64,7 +64,7 @@ const AdminLogin = () => {
                 href="#"
               >
                 <span className="sr-only">Home</span>
-                <img src='/src/assets/icons/logo.png'
+                <img src={logo}
                   className="h-8 sm:h-10"
                   alt='logo'
                 />
