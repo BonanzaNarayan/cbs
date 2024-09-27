@@ -1,139 +1,67 @@
-.contact-page{
-    min-height: 100vh;
-    margin: 20px 50px;
+img{
+    width: 2rem;
 }
-.title-con{
-    margin-top: 35vh;
-    color: rgb(24, 55, 148);
-
+.contactSec{
+    margin: 3rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-radius: 8px;
+    overflow: hidden;
+}
+/* .contactLinks{
     
-}
-.title-con hr{
-    width: 200px;
-    height: 6px;
-    border: 0;
-    border-radius: 10px;
-    background: rgb(24, 55, 148);
-}
-.container-con{
-    display: flex;
-    justify-content: space-between;
-}
-.all-info{
-    margin-top: 35px;
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-    font-size: 1.1rem;
-}
-.location span{
-    color: rgb(24, 55, 148);
-}
-.tel ul{
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    list-style: none;
-}
-
-.t p{
-    color: rgb(24, 55, 148);
-}
-.emails{
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
-
-    
-}
-.emails h2{
-    color: rgb(24, 55, 148);
-}
-.socials-links{
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-}
-.socials-links a{
+} */
+.form{
+    position: relative;
+    background-image: linear-gradient(#0000ad98,#0101ad98),url(https://images.stockcake.com/public/8/f/7/8f796531-3691-4671-86ed-6a12d51e6cf5_large/sunset-skyscrapers-lights-stockcake.jpg);
+    background-position: center;
+    background-size: cover;
     display: flex;
     align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+.form form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     gap: 10px;
-    text-decoration: none;
-    font-weight: 500;
-    width: 11%;
 }
-.socials-links a img{
-    width: 3rem;
-}
-.form{
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-
-    
-}
-.form h2{
-    color: rgb(24, 55, 148);
-    
-}
-.form h2 hr{
-    width: 200px;
-    height: 6px;
-    border: 0;
-    border-radius: 10px;
-    background: rgb(24, 55, 148);
-}
-.send-message{
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    
-
-    
-}
-.send-message p{
-    font-size: 1rem;
-    
-}
-.send-message p span{
-    color: red;
-}
-.send-message input{
+.form form input,textarea{
+    width: 30rem;
+    border: solid 2px white;
+    border-radius: 16px;
     padding: 10px;
-    height: 3rem;
-}
-.send-message textarea{
-    height: 30vh;
-    resize: none;
-    padding: 10px;
-}
-.send-message button{
-    padding: 10px;
-    font-size: 1.3rem;
-    background: rgb(24, 55, 148);
-    border: 0;
     color: white;
-    width: 10rem;
-    border-radius: 5px;
+    background: none;
+} 
+.form form input:last-child{
+    background: white;
+    color: blue;
+    font-weight: bold;
+    margin-bottom: 10px;
+    cursor: pointer;
 }
-
-@media (max-width: 1028px){
-    .contact-page{
-        margin: 20px;
+.form form input:last-child:hover{
+    background: none;
+    color: white;
+    transition: 0.25s ease-in-out;
+}
+@media (max-width: 1028px) {
+    .contactSec{
+        grid-template-columns: 1fr;
+        margin: 1rem;
     }
-    .title-con{
-        margin-top: 20vh;
-        font-size: 0.8rem;
+}
+@media (max-width: 600px) {
+    .contactSec{
+        margin: 0;
     }
-    .container-con{
-        flex-direction: column;
-        gap: 20px;
+    .linksSec{
+        position: relative;
     }
-    .form{
-        width: 80%;
-    }
-    .send-message textarea{
-        font-size: 1.2rem;
+    .form form input,textarea{
+        width: 20rem;
     }
 }

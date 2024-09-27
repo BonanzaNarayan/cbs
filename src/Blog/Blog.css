@@ -1,13 +1,7 @@
 .blogSec{
-    background-image: linear-gradient(rgba(20, 20, 20, 0.63),rgba(34, 34, 34, 0.479)),url(https://images.stockcake.com/public/3/b/0/3b0478c7-b06f-4e41-bad8-e620d43af7ba_large/subscribe-online-now-stockcake.jpg);
+    background-image: linear-gradient(rgba(20, 20, 20, 0.63),rgba(34, 34, 34, 0.479)),url(../assets/icons/city.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 10px;
-    display: flex;
-    justify-content: center;
-    color: white;
-    font-weight: 500;
-    flex-direction: column;
-    gap: 10px;
+    padding: 10px; 
 }

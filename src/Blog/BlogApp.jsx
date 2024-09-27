@@ -30,10 +30,11 @@ const BlogApp = () => {
     // </div>
     <div>
       <Header />
-      <section className=" blogSec relative h-[70vh]">
-        <h2 className='text-white text-3xl'>Welcome The Corporate Voice</h2> 
-        <h3 className='text-2xl'>Join us as we shape tomorrow, today. Solution Space Technologies is your go-to partner.</h3>
-        <h1 className='text-5xl text-blue-600 font-bold'>CBS</h1>
+      <section className=" blogSec relative h-[50vh]">
+        <div className='absolute bottom-0 m-5'>
+          <h2 className='text-white text-5xl'>The Corporate Voice</h2> 
+          <h3 className='text-3xl text-white'>Where Corporate Ideas Speak Louder &rarr;</h3>
+        </div>
 
       </section>
       <div className='flex justify-evenly flex-wrap align-middle gap-5 mt-10'>
