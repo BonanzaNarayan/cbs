@@ -108,7 +108,7 @@ const EditPost = () => {
         <div className='flex justify-evenly flex-wrap'>
           {existingImages.map((imageUrl, index) => (
             <div key={index} className=' w-[250px] shadow-2xl p-3 rounded-xl'>
-              <img src={imageUrl} alt="Post"/>
+              <img src={imageUrl} alt="Post" />
               <button className='p-2 bg-red-500 text-white rounded-lg m-3' onClick={() => handleDeleteImage(imageUrl)}><IoTrashBinSharp /></button>
             </div>
           ))}

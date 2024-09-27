@@ -57,7 +57,7 @@ function Contact() {
             </div>
 
             <div className="form">
-                <form action="https://formsubmit.co/corporatebosssolutions@gmail.com">
+                <form action="https://formsubmit.co/corporatebosssolutions@gmail.com" className='form1'>
                 <h1 className='top-0 left-0 m-5 text-white text-3xl text-start w-[100%]'>Contact us</h1>
                     <input type="text"  name='Name' placeholder='Full Name' required/>
 

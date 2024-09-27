@@ -59,21 +59,21 @@ function Footer() {
 
               <ul className="mt-6 space-y-4 text-sm">
                 <li>
-                  <a href="#" className="text-gray-700 transition hover:opacity-75"> 
-                  IT SERVICES </a>
+                  <p className="text-gray-700 transition hover:opacity-75"> 
+                  IT SERVICES </p>
                 </li>
 
                 <li>
-                  <a href="#" className="text-gray-700 transition hover:opacity-75"> FINANCIAL CONSULTANCY </a>
+                  <p  className="text-gray-700 transition hover:opacity-75"> FINANCIAL CONSULTANCY </p>
                 </li>
 
                 <li>
-                  <a href="#" className="text-gray-700 transition hover:opacity-75"> PROFESSIONAL &
-                  ACADEMIC WRITING </a>
+                  <p className="text-gray-700 transition hover:opacity-75"> PROFESSIONAL &
+                  ACADEMIC WRITING </p>
                 </li>
 
                 <li>
-                  <a href="#s" className="text-gray-700 transition hover:opacity-75"> REAL ESTATE </a>
+                  <p className="text-gray-700 transition hover:opacity-75"> REAL ESTATE </p>
                 </li>
               </ul>
             </div>
