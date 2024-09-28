@@ -65,7 +65,7 @@ function Contact() {
 
                     <input type="number" placeholder='Number' name='Number' required/>
 
-                    <textarea name="Message" cols="30" rows="10" placeholder='Message' required></textarea>
+                    <textarea name="Message" cols="30" rows="10" placeholder='Message' className='textA' required></textarea>
 
                     <input type="submit" value="SUBMIT" />
                 </form>

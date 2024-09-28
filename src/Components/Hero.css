@@ -1,6 +1,6 @@
 .hero{
-    background-image: linear-gradient(456deg, #000000c4, #0000007c),url(../assets/icons/christin-hume-Hcfwew744z4-unsplash.jpg);
+    background-image: linear-gradient(456deg, #000000c4, #0000007c),url(../assets/icons/skyscraper.jpg);
+    background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-
 }

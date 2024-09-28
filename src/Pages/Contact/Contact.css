@@ -25,7 +25,7 @@
     justify-content: center;
     gap: 10px;
 }
-.form .form1 input,textarea{
+.form .form1 input,.textA{
     width: 30rem;
     border: solid 2px white;
     border-radius: 16px;
@@ -58,7 +58,7 @@
     .linksSec{
         position: relative;
     }
-    .form .form1 input,textarea{
+    .form .form1 input,.textA{
         width: 20rem;
     }
 }
