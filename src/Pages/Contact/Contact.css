@@ -10,7 +10,7 @@
 } */
 .form{
     position: relative;
-    background-image: linear-gradient(#0000ad98,#0101ad98),url(https://images.stockcake.com/public/8/f/7/8f796531-3691-4671-86ed-6a12d51e6cf5_large/sunset-skyscrapers-lights-stockcake.jpg);
+    background-image: linear-gradient(#0000ad98,#0101ad98),url(../../assets/icons/conSky.jpg);
     background-position: center;
     background-size: cover;
     display: flex;
